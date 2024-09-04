@@ -93,4 +93,5 @@ client.on('messageCreate', message => {
 });
 
 // Connexion du bot
-client.login(MTI4MDQ4NjIyMzQ4MzI0MDQ4OQ.Gac30e.5wiek0Ft5kLdOu_qQmkQhs5YZbRveSQ0xotieY);  // Assure-toi que le token est bien configuré dans ton environnement
+client.login(process.env.TOKEN);
+
